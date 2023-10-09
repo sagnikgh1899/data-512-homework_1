@@ -9,12 +9,11 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
 
 ## Data sources and API documentation
 - [Articles about academy award winning movies](https://docs.google.com/spreadsheets/d/1A1h_7KAo7KXaVxdScJmIVPTvjb3IuY9oZhNV4ZHxrxw/edit?usp=sharing)
-- [Pageviews APT documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
+- [Pageviews API documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
 - [Pageviews API endpoint](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)
 
 ## Link to licensed sample notebook
-- [Sample notebook for API call](https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view?usp=sharing)  
-The sample code is under [licensed CC-BY license](https://creativecommons.org/licenses/by/4.0/)
+- [Sample notebook for API call](https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view?usp=sharing). The sample code is under [licensed CC-BY license](https://creativecommons.org/licenses/by/4.0/)
 
 ## Data files
 
@@ -38,17 +37,18 @@ The sample code is under [licensed CC-BY license](https://creativecommons.org/li
 ```
 
 #### Description
-- **LICENSE** : a file that contains an MIT LICENSE for sagnikgh1899/data-512-homework_1 repo.
-- **README.md** : a file that contains information to reproduce the analysis, including data descriptions, attributions and provenance information, and descriptions of all relevant resources and documentation (inside and outside the repo) and hyperlinks to those resources.
-- **data** : a folder containing the output datasets (academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json) and the cleaned .csv file (thank_the_academy.AUG.2023.csv)
-- **src** : a folder containing the .ipynb files. First the Data_Acquisition.ipynb file needs to be executed followed by Data_Analysis.ipynb. They are clearly documented to indicate what they do, containing code as well as information necessary to understand each processing step.
-- **results** : a folder containing the three plots Max_Min_Average_plot.png, Top_10_Peak_Page_Views_plot.png, Fewest_months_plot.png (described in detail in the .ipynb)
-*No creation of intermediate datasets or outputs*
+- **LICENSE** : A file that contains an MIT LICENSE for sagnikgh1899/data-512-homework_1 repo.
+- **README.md** : A file that contains information to reproduce the analysis, including data descriptions, attributions and provenance information, and descriptions of all relevant resources and documentation (inside and outside the repo) and hyperlinks to those resources.
+- **data** : A folder containing the output datasets (academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json) and the cleaned .csv file (thank_the_academy.AUG.2023.csv)
+- **src** : A folder containing the .ipynb files. First the Data_Acquisition.ipynb file needs to be executed followed by Data_Analysis.ipynb. They are clearly documented to indicate what they do, containing code as well as information necessary to understand each processing step.
+- **results** : A folder containing the three plots Max_Min_Average_plot.png, Top_10_Peak_Page_Views_plot.png, Fewest_months_plot.png (described in detail in the .ipynb)
+- *No creation of intermediate datasets or outputs*
 
 ## Special considerations
 - It is possible that certain API calls may not return a valid JSON dump due to lag in the server/client side thus a Try/Except block has been added in the code to take this into account.
 - For the cumulative output file, access type of "all-access" is considered and a cumulative monthly sum grouped by each article is calculated.
-- A sample output of the JSON file is assumed as below: -  
+- A sample output of the JSON file is assumed as below:
+```json  
 [
     {
         "project": "en.wikipedia",
@@ -57,7 +57,8 @@ The sample code is under [licensed CC-BY license](https://creativecommons.org/li
         "timestamp": "2015070100",
         "agent": "user",
         "views": 75458
-    },
+    }
+]
     
 ## Snapshot of analysis output
 
