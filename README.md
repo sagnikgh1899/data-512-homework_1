@@ -13,7 +13,7 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
 - [Pageviews API endpoint](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)
 
 ## Link to licensed sample notebook
-- [Sample notebook for API call](https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view?usp=sharing). The sample code is under [licensed CC-BY license](https://creativecommons.org/licenses/by/4.0/)
+- [Sample notebook for API call](https://drive.google.com/file/d/1XjFhd3eXx704tcdfQ4Q1OQn0LWKCRNJm/view?usp=sharing). The sample code is under [CC-BY license](https://creativecommons.org/licenses/by/4.0/)
 
 ## Data files
 
