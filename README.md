@@ -42,7 +42,8 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
 - **data** : A folder containing the output datasets (academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json) and the cleaned .csv file (thank_the_academy.AUG.2023.csv)
 - **src** : A folder containing the .ipynb files. First the Data_Acquisition.ipynb file needs to be executed followed by Data_Analysis.ipynb. They are clearly documented to indicate what they do, containing code as well as information necessary to understand each processing step.
 - **results** : A folder containing the three plots Max_Min_Average_plot.png, Top_10_Peak_Page_Views_plot.png, Fewest_months_plot.png (described in detail in the .ipynb)
-- *No creation of intermediate datasets or outputs*
+
+*No creation of intermediate datasets or outputs*
 
 ## Special considerations
 - It is possible that certain API calls may not return a valid JSON dump due to lag in the server/client side thus a Try/Except block has been added in the code to take this into account.
