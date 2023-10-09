@@ -18,6 +18,10 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
 
 ## Data files
 
+#### Library installation required
+ - pandas
+ - tqdm
+
 #### Repository tree
 ```
 .
