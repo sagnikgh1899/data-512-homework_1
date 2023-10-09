@@ -37,11 +37,11 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
 ```
 
 #### Description
+- **data** : A folder containing the output datasets (academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json) and the cleaned .csv file (thank_the_academy.AUG.2023.csv)
+- **results** : A folder containing the three plots Max_Min_Average_plot.png, Top_10_Peak_Page_Views_plot.png, Fewest_months_plot.png (described in detail in the .ipynb)
+- **src** : A folder containing the .ipynb files. First the Data_Acquisition.ipynb file needs to be executed followed by Data_Analysis.ipynb. They are clearly documented to indicate what they do, containing code as well as information necessary to understand each processing step.
 - **LICENSE** : A file that contains an MIT LICENSE for sagnikgh1899/data-512-homework_1 repo.
 - **README.md** : A file that contains information to reproduce the analysis, including data descriptions, attributions and provenance information, and descriptions of all relevant resources and documentation (inside and outside the repo) and hyperlinks to those resources.
-- **data** : A folder containing the output datasets (academy_monthly_cumulative_201507-202309.json, academy_monthly_desktop_201507-202309.json, academy_monthly_mobile_201507-202309.json) and the cleaned .csv file (thank_the_academy.AUG.2023.csv)
-- **src** : A folder containing the .ipynb files. First the Data_Acquisition.ipynb file needs to be executed followed by Data_Analysis.ipynb. They are clearly documented to indicate what they do, containing code as well as information necessary to understand each processing step.
-- **results** : A folder containing the three plots Max_Min_Average_plot.png, Top_10_Peak_Page_Views_plot.png, Fewest_months_plot.png (described in detail in the .ipynb)
 
 *No creation of intermediate datasets or outputs*
 
