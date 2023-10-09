@@ -59,6 +59,7 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
         "views": 75458
     }
 ]
+```
     
 ## Snapshot of analysis output
 
