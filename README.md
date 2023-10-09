@@ -66,6 +66,17 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
     }
 ]
 ```
+## Reproducing the analysis
+
+To reproduce this analysis, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Ensure you have Python installed with the required libraries (pandas, matplotlib, tqdm, json).
+3. Run Data_Acquisition.ipynb to generate all the required jsons
+4. Run Data_Analysis.ipynb to generate all graphs, which will be saved in the results folder
+5. Analyze graphs
+
+*Feel free to use, modify, or contribute to this project while adhering to the MIT License.*
     
 ## Snapshot of analysis output
 
