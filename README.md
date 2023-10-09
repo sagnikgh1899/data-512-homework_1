@@ -47,7 +47,8 @@ Based on the readings as outlined in [Assessing Reproducibility](http://www.prac
 - **src** : A folder containing the .ipynb files. First the Data_Acquisition.ipynb file needs to be executed followed by Data_Analysis.ipynb. They are clearly documented to indicate what they do, containing code as well as information necessary to understand each processing step.
 - **LICENSE** : A file that contains an MIT LICENSE for sagnikgh1899/data-512-homework_1 repo.
 - **README.md** : A file that contains information to reproduce the analysis, including data descriptions, attributions and provenance information, and descriptions of all relevant resources and documentation (inside and outside the repo) and hyperlinks to those resources.
-  *No creation of intermediate datasets or outputs*
+  
+*No creation of intermediate datasets or outputs*
 
 ## Special considerations
 - It is possible that certain API calls may not return a valid JSON dump due to lag in the server/client side thus a Try/Except block has been added in the code to take this into account.
